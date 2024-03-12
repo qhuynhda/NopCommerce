@@ -4,11 +4,12 @@
        name="NopCommerce">
 
 
-    <test name="Run on Firefox" preserve-order="true">
+
+    <test name="Run on Firefox" preserve-order="false">
         <parameter name="browser"
                    value="firefox"/>
         <classes>
-            <class name=""></class>
+            <class name="com.nopcommerce.user.User_04_Search_Advanced_Search"></class>
         </classes>
     </test>
     <!--<test name="Run on Chrome">
